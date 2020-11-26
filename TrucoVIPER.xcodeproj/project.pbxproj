@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		BFCA1806256EEDB0001DCD0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA1805256EEDB0001DCD0F /* AppDelegate.swift */; };
 		BFCA1808256EEDB0001DCD0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA1807256EEDB0001DCD0F /* SceneDelegate.swift */; };
-		BFCA180A256EEDB0001DCD0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA1809256EEDB0001DCD0F /* ViewController.swift */; };
+		BFCA180A256EEDB0001DCD0F /* TrucoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA1809256EEDB0001DCD0F /* TrucoViewController.swift */; };
 		BFCA180D256EEDB0001DCD0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCA180B256EEDB0001DCD0F /* Main.storyboard */; };
 		BFCA180F256EEDB2001DCD0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCA180E256EEDB2001DCD0F /* Assets.xcassets */; };
 		BFCA1812256EEDB2001DCD0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCA1810256EEDB2001DCD0F /* LaunchScreen.storyboard */; };
+		BFCA1825256F4902001DCD0F /* PresenterToViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA1824256F4902001DCD0F /* PresenterToViewProtocol.swift */; };
+		BFCA1829256F490D001DCD0F /* ViewToPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA1828256F490D001DCD0F /* ViewToPresenterProtocol.swift */; };
+		BFCA182C256F4919001DCD0F /* InteractorToPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA182B256F4919001DCD0F /* InteractorToPresenterProtocol.swift */; };
+		BFCA182F256F4928001DCD0F /* PresenterToInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA182E256F4928001DCD0F /* PresenterToInteractorProtocol.swift */; };
+		BFCA1832256F4933001DCD0F /* PresenterToRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA1831256F4933001DCD0F /* PresenterToRouterProtocol.swift */; };
+		BFCA1835256F4B5F001DCD0F /* TrucoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA1834256F4B5F001DCD0F /* TrucoPresenter.swift */; };
+		BFCA1838256F4C1A001DCD0F /* TrucoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA1837256F4C1A001DCD0F /* TrucoInteractor.swift */; };
+		BFCA183B256F4D40001DCD0F /* TrucoPlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA183A256F4D40001DCD0F /* TrucoPlayerModel.swift */; };
+		BFCA183E256F4E2D001DCD0F /* TrucoPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA183D256F4E2D001DCD0F /* TrucoPlayerService.swift */; };
+		BFCA1841256F528B001DCD0F /* TrucoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA1840256F528B001DCD0F /* TrucoRouter.swift */; };
+		BFCA1845256FD847001DCD0F /* FaqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA1844256FD847001DCD0F /* FaqViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BFCA1802256EEDB0001DCD0F /* TrucoVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrucoVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCA1805256EEDB0001DCD0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFCA1807256EEDB0001DCD0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BFCA1809256EEDB0001DCD0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFCA1809256EEDB0001DCD0F /* TrucoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrucoViewController.swift; sourceTree = "<group>"; };
 		BFCA180C256EEDB0001DCD0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFCA180E256EEDB2001DCD0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFCA1811256EEDB2001DCD0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFCA1813256EEDB2001DCD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCA1824256F4902001DCD0F /* PresenterToViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterToViewProtocol.swift; sourceTree = "<group>"; };
+		BFCA1828256F490D001DCD0F /* ViewToPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewToPresenterProtocol.swift; sourceTree = "<group>"; };
+		BFCA182B256F4919001DCD0F /* InteractorToPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorToPresenterProtocol.swift; sourceTree = "<group>"; };
+		BFCA182E256F4928001DCD0F /* PresenterToInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterToInteractorProtocol.swift; sourceTree = "<group>"; };
+		BFCA1831256F4933001DCD0F /* PresenterToRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterToRouterProtocol.swift; sourceTree = "<group>"; };
+		BFCA1834256F4B5F001DCD0F /* TrucoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrucoPresenter.swift; sourceTree = "<group>"; };
+		BFCA1837256F4C1A001DCD0F /* TrucoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrucoInteractor.swift; sourceTree = "<group>"; };
+		BFCA183A256F4D40001DCD0F /* TrucoPlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrucoPlayerModel.swift; sourceTree = "<group>"; };
+		BFCA183D256F4E2D001DCD0F /* TrucoPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrucoPlayerService.swift; sourceTree = "<group>"; };
+		BFCA1840256F528B001DCD0F /* TrucoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrucoRouter.swift; sourceTree = "<group>"; };
+		BFCA1844256FD847001DCD0F /* FaqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaqViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,74 @@
 		BFCA1804256EEDB0001DCD0F /* TrucoVIPER */ = {
 			isa = PBXGroup;
 			children = (
+				BFCA1823256F48E8001DCD0F /* Protocols */,
+				BFCA1822256F48C5001DCD0F /* Interactor */,
+				BFCA1821256F48C1001DCD0F /* Entity */,
+				BFCA1820256F48BD001DCD0F /* Router */,
+				BFCA181F256F48B5001DCD0F /* Presenter */,
+				BFCA181E256F48AF001DCD0F /* View */,
 				BFCA1805256EEDB0001DCD0F /* AppDelegate.swift */,
 				BFCA1807256EEDB0001DCD0F /* SceneDelegate.swift */,
-				BFCA1809256EEDB0001DCD0F /* ViewController.swift */,
 				BFCA180B256EEDB0001DCD0F /* Main.storyboard */,
 				BFCA180E256EEDB2001DCD0F /* Assets.xcassets */,
 				BFCA1810256EEDB2001DCD0F /* LaunchScreen.storyboard */,
 				BFCA1813256EEDB2001DCD0F /* Info.plist */,
 			);
 			path = TrucoVIPER;
+			sourceTree = "<group>";
+		};
+		BFCA181E256F48AF001DCD0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFCA1809256EEDB0001DCD0F /* TrucoViewController.swift */,
+				BFCA1844256FD847001DCD0F /* FaqViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFCA181F256F48B5001DCD0F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BFCA1834256F4B5F001DCD0F /* TrucoPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		BFCA1820256F48BD001DCD0F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				BFCA1840256F528B001DCD0F /* TrucoRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		BFCA1821256F48C1001DCD0F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				BFCA183A256F4D40001DCD0F /* TrucoPlayerModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		BFCA1822256F48C5001DCD0F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				BFCA1837256F4C1A001DCD0F /* TrucoInteractor.swift */,
+				BFCA183D256F4E2D001DCD0F /* TrucoPlayerService.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		BFCA1823256F48E8001DCD0F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BFCA1824256F4902001DCD0F /* PresenterToViewProtocol.swift */,
+				BFCA1828256F490D001DCD0F /* ViewToPresenterProtocol.swift */,
+				BFCA182B256F4919001DCD0F /* InteractorToPresenterProtocol.swift */,
+				BFCA182E256F4928001DCD0F /* PresenterToInteractorProtocol.swift */,
+				BFCA1831256F4933001DCD0F /* PresenterToRouterProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +218,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCA180A256EEDB0001DCD0F /* ViewController.swift in Sources */,
+				BFCA1838256F4C1A001DCD0F /* TrucoInteractor.swift in Sources */,
+				BFCA1832256F4933001DCD0F /* PresenterToRouterProtocol.swift in Sources */,
+				BFCA1825256F4902001DCD0F /* PresenterToViewProtocol.swift in Sources */,
+				BFCA182F256F4928001DCD0F /* PresenterToInteractorProtocol.swift in Sources */,
+				BFCA1835256F4B5F001DCD0F /* TrucoPresenter.swift in Sources */,
+				BFCA1829256F490D001DCD0F /* ViewToPresenterProtocol.swift in Sources */,
+				BFCA183E256F4E2D001DCD0F /* TrucoPlayerService.swift in Sources */,
+				BFCA180A256EEDB0001DCD0F /* TrucoViewController.swift in Sources */,
+				BFCA1841256F528B001DCD0F /* TrucoRouter.swift in Sources */,
 				BFCA1806256EEDB0001DCD0F /* AppDelegate.swift in Sources */,
+				BFCA183B256F4D40001DCD0F /* TrucoPlayerModel.swift in Sources */,
+				BFCA182C256F4919001DCD0F /* InteractorToPresenterProtocol.swift in Sources */,
 				BFCA1808256EEDB0001DCD0F /* SceneDelegate.swift in Sources */,
+				BFCA1845256FD847001DCD0F /* FaqViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
