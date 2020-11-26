@@ -68,10 +68,12 @@ class TrucoViewController: UIViewController {
 extension TrucoViewController: PresenterToViewProtocol {
     func updatePlayerOneName(newName: String) {
         self.player1Label.text = newName
+        self.player1Field.text = ""
     }
     
     func updatePlayerTwoName(newName: String) {
         self.player2Label.text = newName
+        self.player2Field.text = ""
     }
     
     func updatePlayerOneScore(newScore: String) {
